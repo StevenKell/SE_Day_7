@@ -1,0 +1,50 @@
+body{
+    height: 100%;
+}
+
+.hero-image {
+    position: relative;
+    border: 2px solid red;
+    height: 380px;
+    background-image: url("../images/manhattan_skyline_new_york_panorama.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bird-box{
+    position: absolute;
+    top: 3%;
+    left: 92%;
+    background-color: rgba(red, green, blue, alpha);
+    animation-name: fly;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 10%;
+    height: 10%;
+
+}
+
+.hero-image>div>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.boat-box{
+    position: absolute;
+    bottom: 2%;
+    height: 10%;
+    animation-name: float;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.boat-box>img{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%; 
+}

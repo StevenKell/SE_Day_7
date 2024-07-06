@@ -1,0 +1,23 @@
+
+@keyframes fly {
+
+0% {top: 43%; left: 110%; border-radius: 10px;}
+30%{top: 0%; left: 86%; transform: rotate(90deg);}
+50%{top: 16%; left: 66%;}
+80%{top: 3%; left: 34%; font-size: 30px;}
+100%{top: 50%; left: -10%;}
+
+}
+
+@keyframes float {
+    0% { bottom: 2%; left: 0%;}
+    5% {bottom: 2%; left: 5%;}
+    10% {bottom: 2%; left: 10%;}
+    20% {bottom: 3%; left: 20%;}
+    30% {bottom: 4%; left: 30%;}
+    50% { bottom: 8%; left: 50%;}
+    60% { bottom: 5%; left: 60%;}
+    100% { bottom: 2%; left: 104%;}
+    
+}
+
